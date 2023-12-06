@@ -1,38 +1,12 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+form{   
+  max-width: 400px;   
+  padding: 12px;   
+  border-radius: 10px;   
+  background-color: var(--body); 
+}  
+form .image-preview-div{   
+  display: flex;   
+  align-items: center;   
+  justify-content: center;   
+  position: relative;   width: 100%;   max-height: 200px;   border-radius: 10px;   overflow: hidden; } form .image-preview-div img{   width: 100%;   height: 100%; } form .image-preview-div #imageInput{   position: absolute;   width: 100%;   height: 100%;   opacity: 0; } form .project-input-div{   padding-top: 10px; } form .project-input-div input{   width: 100%;   height: 50px;   padding: 12px;   font-size: 17px;   border: 0.5px solid #E6E6E6;   border-radius: 5px;   margin: 5px 0;   transition: 0.3s ease; } form .project-input-div input:focus{   border: 2px solid var(--primary-color); } form button{   width: 100%;   height: 50px;   padding: 15px;   border: none;   border-radius: 5px;   font-size: 18px;   letter-spacing: 3px;   font-weight: lighter;   background-color: var(--primary-color);   margin-top: 15px;   border-bottom: 3px solid #000;   transition: 0.3s ease; } form button:hover{   border: none; }
